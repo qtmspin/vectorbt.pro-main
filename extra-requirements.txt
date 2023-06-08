@@ -1,0 +1,40 @@
+# FORMAT
+# Put your extra requirements here in the following format
+#
+# package[version_required]: tag1, tag2, ...
+
+yfinance>=0.2.18:           data, base
+python-binance>=1.0.16:     data
+alpaca-py:                  data
+ccxt>=1.89.14:              data
+tables:                     data
+polygon-api-client>=1.0.0:  data
+beautifulsoup4:             data
+nasdaq-data-link:           data
+TA-Lib:                     ta, base
+ta:                         ta
+pandas_ta:                  ta
+technical:                  ta
+Bottleneck:                 compute
+numexpr:                    compute, base
+hyperopt:                   optimize
+optuna:                     optimize
+pathos:                     distribute, base
+dask:                       distribute, base
+ray>=1.4.1:                 distribute
+matplotlib>=3.2.0:          plot, base
+plotly>=5.0.0:              plot, base
+ipywidgets>=7.0.0:          plot, base
+kaleido:                    plot, base
+plotly-resampler:           plot
+quantstats>=0.0.37:         stats, base
+PyPortfolioOpt>=1.5.1:      stats
+Riskfolio-Lib>=3.3.0:       stats
+universal-portfolios:       stats
+python-telegram-bot>=13.4:  notify
+dill:                       io, base
+lz4:                        io
+blosc:                      io
+pytest:                     test
+pytest-cov:                 test
+codecov:                    test
